@@ -23,7 +23,7 @@ function appendAddToCartButton() {
                 var button = document.createElement("button");
                 button.setAttribute("class", "btn-shopping-cart btn-shopping-neutral use-ajax");
                 button.setAttribute("href", "/en/direct-buy/add-to-cart/" + itemId);
-                button.setAttribute("style", "color: #ff0000 !important;background-color: #ff9c00 !important;border: 2px solid #ff0000 !important;");
+                button.setAttribute("style", "color: #ff0000 !important;background-color: #00ff00 !important;border: 2px solid #ff0000 !important;");
                 button.innerHTML = "Matt fortissimo";
                 document.getElementsByClassName("product-page-description")[0].appendChild(button);
             }
