@@ -23,8 +23,8 @@ function appendAddToCartButton() {
                 var button = document.createElement("button");
                 button.setAttribute("class", "btn-shopping-cart btn-shopping-neutral use-ajax");
                 button.setAttribute("href", "/en/direct-buy/add-to-cart/" + itemId);
-                button.setAttribute("style", "color: #282828 !important;background-color: #ff9c00 !important;border: 2px solid #282828 !important;");
-                button.innerHTML = "Just Track It";
+                button.setAttribute("style", "color: #ff0000 !important;background-color: #ff9c00 !important;border: 2px solid #ff0000 !important;");
+                button.innerHTML = "Matt fortissimo";
                 document.getElementsByClassName("product-page-description")[0].appendChild(button);
             }
         }
